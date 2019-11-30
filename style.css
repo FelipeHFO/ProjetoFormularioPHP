@@ -1,0 +1,83 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+/* Estilos da Página Principal */
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#descricao{
+    margin: 50px;
+}
+
+#descricao p{
+    font-size: 18px;
+}
+
+#descricao a{
+    background-color: cornflowerblue;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#criadores{
+    margin: 50px;
+}
+
+/* Estilos da Página de Cadastro */
+
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+#form{
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form div{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+label{
+    margin: 5px;
+}
+
+.campoTexto{
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+}
+
+#btn-cadastrar{
+    background-color: cornflowerblue;
+    border: outset;
+    font-size: 18px;
+    width: 120px;
+    height: 45px;
+    margin: 20px;
+}

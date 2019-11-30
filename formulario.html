@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Formulário utilizando HTML5, CSS3, JavaScript e PHP">
+        <meta name="keywords" content="Formulário,HTML,CSS,JavaScript,PHP">
+        <meta name="author" content="Felipe Henrique">
+        <meta name="author" content="Felipe Hércules">
+        <meta name="author" content="João Pedro">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Cadastro</title>
+    </head>
+    
+    <body>
+            
+        <div id="conteudo">
+
+            <h1>Cadastre-se</h1>
+
+            <form id="form" method="POST" action="./email.php">
+
+                <div>
+                    <label>Nome</label>
+                    <input  class="campoTexto" type="text" name="cNome" id="campoNome" placeholder="Digite seu nome!">
+                </div>
+
+                <div>
+                    <label>CPF</label>
+                    <input class="campoTexto" type="text" name="cCPF" id="campoCPF" placeholder="Ex.: 000.000.000-00">
+                </div>
+
+                <div>
+                    <label>Email</label>
+                    <input class="campoTexto" type="email" name="cEmail" id="campoEmail" placeholder="Ex.: exemplo@exemplo.com">
+                </div>
+
+                <div>
+                    <label>Senha</label>
+                    <input class="campoTexto" type="password" name="cSenha" id="campoSenha" placeholder="Digite sua senha!">
+                </div>
+
+                <input type="submit" value="Cadastrar" id="btn-cadastrar">
+
+            </form>
+
+        </div>
+
+    </body>
+
+</html>
